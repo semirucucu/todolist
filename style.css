@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  justify-content: center; /* Yatay ortalama */
+  align-items: center;     /* Dikey ortalama */
+  height: 98vh;     
+  border: 1px solid black;
+  background-color: rgba(219, 158, 158, 0.5);
+}
+
+
+.todo {
+  position: absolute;
+  top: -5px;
+  left: 47%;
+}
+
+.liste {
+  background-color: white;
+  padding-left: 15px;
+}
+
+.liste input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.liste input:hover {
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: gray; /* Yazı rengi grimsi */
+}
+
+
+.sil {
+  height: 30px;
+  margin-top: 3px;
+  margin-right: 10px;
+  background-color: rgba(201, 110, 110, 0.6);
+  color: rgb(59, 52, 52);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  float: right;
+  
+}
+
+.sil:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+
+.box {
+  width: 800px;
+  border: 1px solid black;
+  height: 800px;
+  background-color: rgba(31, 53, 150, 0.8);
+  border-radius: 25px;
+}
+
+.notgir {
+  height: 30px;
+  font-size: 21px;
+  margin: 10px 30px;
+  width: 600px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.notgir_but {
+  height: 36px;
+  border: none;
+  background-color: rgb(26, 24, 24);
+  color: white;
+  border-radius: 10px;
+  font-size: 21px;
+}
+
+.notgir_but:hover { 
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
